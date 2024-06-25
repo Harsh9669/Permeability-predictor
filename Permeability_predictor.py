@@ -296,7 +296,7 @@ elif page == "Description":
     # Model performance metrics
     performance_metrics = {
         "Metric": ["Accuracy", "F1 Score"],
-        "Score": [0.895, 0.889]
+        "Score": [0.896, 0.890]
     }
     performance_df = pd.DataFrame(performance_metrics)
     st.write("#### Model Performance")
